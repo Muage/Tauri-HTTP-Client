@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: restAPI
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/example
+    username: postgres
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
